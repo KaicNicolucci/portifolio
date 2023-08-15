@@ -55,6 +55,10 @@ header li a:hover{
 
 /*main*/
 
+.container .section1{
+    background-color: azure
+}
+
 .section1{
     display: flex;
     justify-content: space-between;
