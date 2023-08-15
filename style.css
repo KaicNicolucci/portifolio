@@ -59,22 +59,22 @@ header li a:hover{
 
 /*main - presentation */
 
-#presentation .container {
-    background-color: azure
+#presentation {
+    background-color: azure;
 }
 
 #presentation .container {
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    margin-top: 18px;
     align-items: center;
+    padding: 74px 0px;
 }
 
 #presentation .container .text1{
     text-align: center;
     max-width: 700px;
     padding: 70px;
-    margin-right: 80px;
 }
 
 #presentation .container .text1 h2 {
@@ -82,33 +82,53 @@ header li a:hover{
     font-size: 54px;
 }
 
+#presentation .container .text1 button {
+    width: 130px;
+    margin-top: 64px;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background-color: blue;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px blue;
+}
+#presentation .container .text1 button:hover {
+    background-color: rgba(0, 0, 255, 0.74);
+    scale: 1.02;
+    transition: all .55s ease;
+}
+
 /* Tecnologies */
 
-    #tecnologies {
-        background-color: rgb(40, 37, 68);
-    }
+#tecnologies {
+    background-color: rgb(200, 200, 255);
+}
 
 #tecnologies .container {
     max-width: 900px;
-    width: 100%;
-    margin-top: 24px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0px;
 }
 
-#tecnologies .container h2 {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 48px;
-    color: white;
-    padding: 12px 2px;
-    text-shadow: 0px 0px 5px white;
+#tecnologies .container .text {
+    margin-right: 12px;
+    text-align: left;
 }
 
-#tecnologies .container p {
+#tecnologies .container .text h2 {
     font-family: sans-serif;
-    font-size: 18px;
-    margin-bottom: 48px;
+    font-size: 38px;
+    margin-bottom: 18px;
 }
 
-#tecnologies .container .images img {
-    height: 200px;
-    margin-left: 64px;
+#tecnologies .container .text p {
+    color: rgb(15, 19, 85);
+}
+
+#tecnologies .container img {
+    height: 150px;
 }
