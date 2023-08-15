@@ -1,0 +1,47 @@
+/*reset*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*all container style*/
+
+.container {
+    width: 1366px;
+    max-width: 100%;
+    margin: 0px auto;
+    font-family: sans-serif;
+}
+
+/*header*/
+
+header{
+    background-color: black;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header li{
+    display: inline;
+}
+
+header h1{
+    color: blue;
+}
+
+header li a{
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+    padding: 8px;
+    margin-left: 8px;
+    font-family: sans-serif;
+}
